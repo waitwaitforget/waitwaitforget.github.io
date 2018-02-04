@@ -8,15 +8,15 @@ Recent works use autoencoder's reconstruction error to measure how well autoenco
 
 Usually, the measure is reconstruction error, from the perspective of probabilistic model.
 
-In this paper, the authors shown that autoencoder can assign scores that are independently with training procedures and it can seen from a dynamic system instead of probabilistic model.
+In this paper, the authors shown that autoencoder can assign scores that are independently with training procedures and it can seen from a dynamic system instead of probabilistic model.{: .text-justify}
 
 
 ## Background
-Training is to infer the latent representation from data which can be used for other tasks. Training AE is an unsupervised precedure. Typically, the features are useful for all classes.
+Training is to infer the latent representation from data which can be used for other tasks. Training AE is an unsupervised precedure. Typically, the features are useful for all classes.{: .text-justify}
 
-Although probabilistic models may be used to extract class-independent features for classification, it has been more common to train one model per class and to subsequently use Bayes'rule for classification.
+Although probabilistic models may be used to extract class-independent features for classification, it has been more common to train one model per class and to subsequently use Bayes'rule for classification.{: .text-justify}
 
-Here probabilistic models are often refered as RBM-based model. In these models negative energy can represent the score.
+Here probabilistic models are often refered as RBM-based model. In these models negative energy can represent the score.{: .text-justify}
 
 ## Details
 Need to be finish.
