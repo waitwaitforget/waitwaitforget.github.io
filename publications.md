@@ -13,4 +13,4 @@ Xiaoxiong Zheng, Yang Wang, **Kai Tian**, Jiaogen Zhou, Jihong Guan, Libo Luo, S
 
 
 [Boosting compound-protein interaction prediction by deep learning](http://ieeexplore.ieee.org/document/7359651/)<br>
-**Kai Tian**, Shuigeng Zhou, Mingyu Shao, Yang Wang, Jihong Guan,* Methods*, 2016.
+**Kai Tian**, Shuigeng Zhou, Mingyu Shao, Yang Wang, Jihong Guan, *Methods*, 2016.
