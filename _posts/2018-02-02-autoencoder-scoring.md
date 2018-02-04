@@ -12,11 +12,11 @@ Usually, the measure is reconstruction error, from the perspective of probabilis
 
 
 ## Background
-<p>Training is to infer the latent representation from data which can be used for other tasks. Training AE is an unsupervised precedure. Typically, the features are useful for all classes.</p>
+<p class="text-justify">Training is to infer the latent representation from data which can be used for other tasks. Training AE is an unsupervised precedure. Typically, the features are useful for all classes.</p>
 
-<p>Although probabilistic models may be used to extract class-independent features for classification, it has been more common to train one model per class and to subsequently use Bayes'rule for classification.</p>
+<p class="text-justify">Although probabilistic models may be used to extract class-independent features for classification, it has been more common to train one model per class and to subsequently use Bayes'rule for classification.</p>
 
-<p>Here probabilistic models are often refered as RBM-based model. In these models negative energy can represent the score.</p>
+<p class="text-justify">Here probabilistic models are often refered as RBM-based model. In these models negative energy can represent the score.</p>
 
 ## Details
 Need to be finish.
