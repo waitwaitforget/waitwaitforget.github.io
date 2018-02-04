@@ -1,8 +1,8 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
+title:            "Kai Tian"
 description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
+url:              http://www.kaitian.io # Site url, without a slash at the end.
+signoff:          "Kai Tian" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
@@ -12,11 +12,11 @@ links:
     url:          /
     external:     false
   - name:         Publication
-    url:          /publication
+    url:          /publications
     external:     false
   - name:         Github
     url:          https://github.com/waitwaitforget
-    external:     false
+    external:     true
   - name:         About
     url:          /about
     external:     false
