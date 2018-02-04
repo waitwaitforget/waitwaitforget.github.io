@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: <center>Publications<center>
 ---
 
 [DeepCluster: A General Clustering Framework Based on Deep Learning](http://ecmlpkdd2017.ijs.si/papers/paperID345.pdf)<br>
