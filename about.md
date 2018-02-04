@@ -1,9 +1,9 @@
 ---
-title: About me
+title: About
 ---
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+I am a fourth-year PhD student in Computer Science at Fudan University. I received my Bachelor’s in Mathematics from East China University of Science and Technology. Currently I'm a visiting scholar in Prof. Jianping Fan's lab at UNC Charlotte.
 
-Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi.
+I mainly focus on representation learning, unsupervised learning, and deep learning. I am also interested in deep generative models, and in its application to semi-supervised learning.
 
-Find me on [GitHub](https://github.com/muan) or [Twitter](https://twitter.com/muanchiou).
+I'm looking for internship in Shanghai since Oct. 2018.
