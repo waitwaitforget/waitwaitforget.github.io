@@ -8,7 +8,7 @@ Recent works use autoencoder's reconstruction error to measure how well autoenco
 
 Usually, the measure is reconstruction error, from the perspective of probabilistic model.
 
-<p>In this paper, the authors shown that autoencoder can assign scores that are independently with training procedures and it can seen from a dynamic system instead of probabilistic model.</p>
+<p class="text-justify">In this paper, the authors shown that autoencoder can assign scores that are independently with training procedures and it can seen from a dynamic system instead of probabilistic model.</p>
 
 
 ## Background
