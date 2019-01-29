@@ -1,6 +1,9 @@
 ---
 title: <center>Publications<center>
 ---
+[Learning Competitive and Discriminative Reconstructions for Anomaly Detection]()<br>
+**Kai Tian**, Shuigeng Zhou, Jianping Fan, Jihong Guan<br>
+*In The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)*
 
 [DeepCluster: A General Clustering Framework Based on Deep Learning](http://ecmlpkdd2017.ijs.si/papers/paperID345.pdf)<br>
 **Kai Tian**, Shuigeng Zhou, Jihong Guan<br>
