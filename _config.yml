@@ -1,6 +1,6 @@
 # Site settings
 title: Kai's Blog
-SEOTitle: 田凯的博客 | BY Blog
+SEOTitle: Kai Tian's Blog
 header-img: img/post-bg-desk.jpg
 email: tiank311@gmail.com
 description: "Every failure is leading towards success."
@@ -18,10 +18,11 @@ sidebar-avatar: /img/about-kai-gentle.jpg      # use absolute URL, seeing it's u
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:     LikeFishLikeWater
 #zhihu_username:     qiubaiying
 github_username:    waitwaitforget
 facebook_username:  kaitian
+
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
