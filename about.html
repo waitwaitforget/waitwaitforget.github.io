@@ -12,117 +12,44 @@ header-img: "img/post-bg-rwd.jpg"
 </select> -->
 
 <!-- Chinese Version -->
-<div class="zh post-container">
 
-   <p>
-    I am Kai Tian (Chinese: 田凯), a fifth-year PhD student at Fudan Univeristy. Prior to that, I got my B.S. degree from East China University of Science and Technology. My research interests include 
-               unsupervised learning, semi-supervised deep learning. I am also interested in exploring the cooperation and competition among neural network models. 
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
-    
-    <h5>What's new</h5>
-
-    <ul>
-        <li>One of my co-authored paper is accepted by ICCV 2019!</li>
-        <li>One paper accepted by CVPR 2019!</li>
-        <li>One paper accepted by AAAI 2019!</li> 
-        <li>I spend one year in UNC Charlotte from 2017.9 to 2018.9.</li>
-    </ul>
-
-    <h5>Publications</h5>
-
-            <div class="nine columns main-col">
-               <div class="row item">
-                  <div class="twelve columns">
-                     <h5>Versatile Multiple Choice Learning and Its Application to Vision Computing</h5>
-                     <p>
-                        <strong>Kai Tian</strong>, Yi Xu, Jihong Guan, Shuigeng Zhou
-                        <br>
-                        In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 
-                        (<strong>CVPR</strong>), Long Beach, USA, Jun. 16 - Jun. 21, 2019
-                        <br>
-
-                                 [
-                                 <a href="pdfs/VMCL_CVPR2019.pdf">pdf</a>
-                                 ]
-                                 [<a href="#">bib</a>]
-                                 [
-                                 <a href="#">code coming soon</a>
-                                 ]
-
-                     </p>
-                  </div>
-               </div>
-
-               <div class="row item">
-                  <div class="twelve columns">
-                     <h5>Learning Competitive and Discriminative Reconstructions for Anomaly Detection</h5>
-                     <p>
-                        <strong>Kai Tian</strong>, Shuigeng Zhou, Jianping Fan, Jihong Guan
-                        <br>
-                        Association for the Advancement of Artificial Intelligence 
-                        (<strong>AAAI</strong>), Hawaii, USA, Jan. 27- Feb. 1, 2019
-                        <br>
-
-                                 [
-                                 <a href="pdfs/CoRA_AAAI2019.pdf">pdf</a>
-                                 ][
-                                 <a href="#">bib</a>
-                                 ][
-                                 <a href="#">code coming soon</a>
-                                 ]
-
-                     </p>
-                  </div>
-               </div>
-
-               <div class="row item">
-                  <div class="twelve columns">
-                     <h5>Global Semantic Consistency for Zero-Shot Learning</h5>
-                     <p>
-                        Fan Wu, <strong>Kai Tian</strong>, Shuigeng Zhou
-                        <br>
-                        arXiv preprint
-                        <br>
-                           [<a href="https://arxiv.org/pdf/1806.08503.pdf">pdf</a>]
-                           [<a href="#">bib</a>]
-                           <!--[<a href="https://www.cs.uic.edu/~lsun/doc/aaai19.bib">bib</a>]-->
-                     </p>
-                  </div>
-               </div>
-
-               <div class="row item">
-                  <div class="twelve columns">
-                     <h5>DeepCluster: A General Clustering Framework Based on Deep Learning</h5>
-                     <p>
-                        <strong>Kai Tian</strong>, Shuigeng Zhou, Jihong Guan
-                        <br>
-                        The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 
-                       (<strong>ECML-PKDD</strong>), Skopje, Macedonia, Sep. 2017
-                        <br>
-                           [<a href="pdfs/DeepCluster_ECML2017.pdf">pdf</a>]
-                           [<a href="#">bib</a>]
-                           [<a href="https://github.com/JennyQQL/DeepClusterADMM-Release">code</a>]
-                     </p>
-                  </div>
-               </div>
-
-               <div class="row item">
-                  <div class="twelve columns">
-                     <h5>Boosting compound-protein interaction prediction by deep learning</h5>
-                     <p>
-                        <strong>Kai Tian</strong>, Mingyu Shao, Jihong Guan, Shuigeng Zhou
-                        <br>
-                        IEEE International Conference on Bioinformatics and Biomedicine(<strong>BIBM</strong>),
-                         Washington, USA, Nov. 2015
-                        <br>
-                         
-                     </p>
-                  </div>
-               </div>
-
-            </div>
 </div>
+<hr>
+{% endfor %}
 
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
 
 <!-- English Version -->
 <!-- <div class="en post-container">
