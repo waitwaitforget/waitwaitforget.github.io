@@ -1,0 +1,15 @@
+.paper {
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 0.7em;
+  border: 0px solid #ddd;
+  background: #f4f6f6;
+  padding: 0.55em .8em 0.6em .8em;
+  border-top-right-radius:10px; 
+  border-top-left-radius:10px; 
+  border-bottom-left-radius:10px; 
+  border-bottom-right-radius:10px;
+  line-height: 140%;
+}
+
+
